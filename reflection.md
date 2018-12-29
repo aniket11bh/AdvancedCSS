@@ -480,3 +480,23 @@ Stack content so that it is flush with the window and remove any margin padding.
     </div>
 </div>
 ```
+
+##### Empty column
+Use `min-height: 1px;` so that a column doesn't collapse
+
+For eg. in : 
+``` CSS
+<div class="row">
+    <div class="col-1-3">
+    </div>
+    <div class="col-1-4">
+        Copyright
+    </div>
+    <div class="col-1-6">
+        Privacy Policy
+    </div>
+    <div class="col-1-4">
+        Terms of Use
+    </div>
+</div>
+```
