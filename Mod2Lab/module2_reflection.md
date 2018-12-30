@@ -175,3 +175,32 @@ Absolute positioned module will offset itself from the edge of a surrouding cont
 }
 /* Now, we can swap the close button for a different button without breaking the design or needing to position the new button */
 ```
+
+### Build the Base Button Module
+
+### Build Mobile Header, logo and navigation
+
+#### Base Button CSS Module
+Design mobile first, add the basic button style settings to button module. 
+Refer to http://pxtoem.com/ to convert font sizes from style guide into web friendly units.
+
+CSS Transitions at : https://www.w3schools.com/css/css3_transitions.asp
+
+#### Create and Style Header Wrapper 
+
+#### Create and Style Navigation for Extra Small Devices
+
+### Build the Hero Section and Background Image
+
+#### Create Hero and Hero Primary modules
+#### Create and Style the Hero Text Content
+#### Create Hero Background Image Module
+
+### Build a Media Object that includes an Icon Font
+
+#### Create an HTML template for Media Objects
+#### Add Font Awesome icon Font
+#### Style your Media Object
+
+
+
