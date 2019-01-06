@@ -106,6 +106,12 @@ Layout Styles
   color: #594a42;
   font-size: 5em;
 }
+
+.testimonial-item i{
+  font-size: 5em;
+  color: white;
+  position: relative;
+}
 /***************************
 ****************************
 Modules
@@ -141,6 +147,20 @@ Modules
   text-decoration: none;
 }
 
+.btn-hero {
+  padding: 15px 30px;
+  font-size: 1.750em;
+  border-color: white;
+  /* background-color: transparent; */
+  background: none;
+  color: white; 
+}
+
+.btn-hero:hover {
+  color: #8DC63F;
+  background-color: white;
+}
+
 .btn-nav {
   color: white;
 }
@@ -156,6 +176,19 @@ Modules
     display: none;
   }
 }
+
+@media (min-width: 48em) {
+  .btn-primary {
+    padding: 10px 15px;
+    font-size: 1.125em;
+  }
+}
+
+/* @media (min-width: 48em) {
+  .btn-nav {
+    float: left;
+  }
+} */
 
 .header-primary {
   background: #9B8579;
@@ -249,6 +282,29 @@ Modules
 .hero-body {
   position: relative;
 }
+
+.testimonial {
+  text-align: center;
+}
+
+.testimonial-primary {
+  background-color: #594a42;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.testimonial-primary.bg-image > img {
+  opacity: 0.55;
+}
+
+.testimonial-body {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+
 /***************************
 ****************************
 Theme Styles
