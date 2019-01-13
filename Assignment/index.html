@@ -1,18 +1,45 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+        crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
-    <header class="background-secondary">
-        <div class="container">Header Content</div>
+    <header class="header-primary">
+        <div class="container">
+            <a class="logo logo-primary">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <div class="btn btn-primary btn-toggle-menu">Menu</div>
+            <nav class="nav nav-primary">
+                <ul>
+                    <li class="nav-buttons"> <a href="#" class="btn btn-nav">Lorem Ipsum Dolor</a></li>
+                    <li class="nav-buttons"> <a href="#" class="btn btn-nav">Lorem Ipsum </a></li>
+                    <li class="nav-buttons"> <a href="#" class="btn btn-nav">Lorem Ipsum Dolor</a></li>
+                    <li class="nav-buttons"> <a href="#" class="btn btn-primary">Lorem Ipsum </a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="background-secondary">
-            <div class="container">Hero Primary content</div>
+        <section class="hero hero-primary bg-image">
+            <img src="images/hero.jpg" alt="Hero">
+            <div class="container">
+                <div class="hero-body">
+                    <h1 class="hero-title">Lorem Ipsum</h1>
+                    <h4 class="hero-subtitle">Lorem Ipsum dolor sit amet, consectetur adipiscing elit.
+                        Praesent vitae odio sollicitudin, convallis mauris vitae, rhoncus leo. Nam vehicula
+                        lacus nec laoreet luctus. Sed eu.
+                    </h4>
+                    <button class="btn btn-hero">Lorem Ipsum Dolor</button>
+                </div>
+            </div>
         </section>
         <section>
             <div class="container">
@@ -27,17 +54,89 @@
             </div>
         </section>
         <section>
-            <div class="container">Featured Content</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-1-3 remove-gutter-xs">
+                        <div class="background-secondary">Featured Content</div>
+                    </div>
+                    <div class="col-1-3 remove-gutter-xs">
+                        <div class="background-secondary">Featured Content</div>
+                    </div>
+                    <div class="col-1-3 remove-gutter-xs">
+                        <div class="background-secondary">Featured Content</div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="background-primary">
-            <div class="container">Testimonial Content</div>
+        <section class="testimonial testimonial-primary bg-image">
+            <img src="images/testimonial-bg.jpg" alt="Testimonials">
+            <div class="container">
+                <div class="testimonial-item">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <div class="testimonial-body">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Donec finibus nunc id congue mattis. Sed vel tincident enim.
+                    Aliquam sollicitudin nisl sit amet ullamcorper eleifend.
+                    Curabitur feugiat urna a purus fringilla." - Lorem Ipsum
+                </div>
+            </div>
         </section>
-        <section class="background-secondary">
-            <div class="container">Media Objects</div>
+        <section class="background-quinary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1-2">
+                        <div class="media">
+                            <div class="media-item"><i class="fa fa-tags"></i></div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Lorem Ipsum Dolor</h4>
+                                <p>Lorem Ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Donec finibus nunc id congue
+                                    mattis. Sed vel tincident enim. Aliquam
+                                    sollicitudin nisi sit amet uliamcorper eleifend.
+                                </p>
+                                <button class="btn btn-primary">Lorem Ipsum</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-2">
+                        <div class="media">
+                            <div class="media-item"><i class="fa fa-bomb"></i></div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Lorem Ipsum Dolor</h4>
+                                <p>Lorem Ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Donec finibus nunc id congue
+                                    mattis. Sed vel tincident enim. Aliquam
+                                    sollicitudin nisi sit amet uliamcorper eleifend.
+                                </p>
+                                <button class="btn btn-primary">Lorem Ipsum</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="background-tertiary">
-        <div class="container">Footer Content</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-1-3">Logo</div>
+                <div class="col-1-4">Address</div>
+                <div class="col-1-6">PhoneNumber</div>
+                <div class="col-1-4">Contact</div>
+            </div>
+            <div class="row">
+                <div class="col-1-3"></div>
+                <div class="col-1-4">Copyright</div>
+                <div class="col-1-6">Privacy policy</div>
+                <div class="col-1-4">Terms of use</div>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>

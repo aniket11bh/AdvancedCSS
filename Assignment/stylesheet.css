@@ -56,6 +56,8 @@ a:hover {
 }
 
 [class*='col-'] {
+    width: 100%;
+    min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -70,6 +72,15 @@ a:hover {
     .col-2-3 {
         width: 66.66%;
     }
+    .col-1-2 {
+        width: 50%;
+    }
+    .col-1-4 {
+        width: 25%;
+    }
+    .col-1-6 {
+        width: 16.66%;
+    }
 }
 
 @media (min-width: 48em) {
@@ -78,6 +89,225 @@ a:hover {
     }
 }
 
+@media only screen and (max-width: 47.9375em) {
+    .remove-gutter-xs {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.testimonial-item i{
+    font-size: 5em;
+    color: white;
+    position: relative;
+}
+
+/*********************
+ Modules
+ *********************/
+.btn {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 1.313em;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-primary {
+    background-color: #8DC63F;
+    border-color: #8DC63F;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: none;
+    border-color: white;
+    text-decoration: none;
+}
+
+.btn-nav {
+    color: white;
+}
+
+.header-primary {
+    background: #9B8579;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+/* Logo Modules */
+.logo {
+    overflow: hidden;
+    display: inline-block;
+}
+.logo-primary {
+    width: 64px;
+    height: 64px;
+}
+.logo-primary img {
+    height: 100%;
+}
+
+@media (min-width: 48em) {
+    .logo-primary {
+        float: left;
+    }
+}
+
+/* Menu modules */
+.btn-toggle-menu {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+@media (max-width: 47.9375em) {
+    .btn-toggle-menu {
+        display: block;
+    }
+}
+
+/* Navigation Modules */
+.nav > ul {
+    list-style: none;
+}
+
+.nav > ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+  
+.nav-primary {
+    margin-top: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (min-width: 48em) {
+    .nav-primary {
+        margin-top: 15px;
+        background: none;
+    }
+    .nav-buttons{
+        float: left;
+    }
+}
+
+/* Background modules */
+.bg-image {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+  
+.bg-image > img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    min-width: 100%;
+}
+
+/* Hero Modules */
+.hero-primary.bg-image > img {
+    opacity: 0.55;
+}
+  
+.hero-body {
+    position: relative;
+}
+
+.hero {
+    text-align: center;
+}
+  
+.hero-primary {
+    background-color: #594a42;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+  
+.hero-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2.625em;
+}
+  
+.hero-subtitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.500em;
+    font-weight: normal;
+}
+  
+.hero-subtitle + button {
+    margin-top: 25px;
+}
+
+.btn-hero {
+    padding: 15px 30px;
+    font-size: 1.750em;
+    border-color: white;
+    background: none;
+    color: white; 
+}
+  
+.btn-hero:hover {
+    color: #8DC63F;
+    background-color: white;
+}
+
+/* Testimonial section */
+.testimonial-primary.bg-image > img {
+    opacity: 0.55;
+}
+  
+.testimonial-body {
+    position: relative;
+    padding-top: 50px;
+}
+
+.testimonial {
+    text-align: center;
+}
+  
+.testimonial-primary {
+    background-color: #594a42;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+  
+/* Media module */
+.media, .media-body {
+    overflow:hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.media-item {
+    float:left;
+    margin-right: 10px;
+}
+  
+.media-item i {
+    color: #594a42;
+    font-size: 5em;
+}
 /*********************
  Theme styles 
  *********************/
@@ -90,3 +320,7 @@ a:hover {
 .background-tertiary {
     background: #8DC63F;
 }
+.background-quinary {
+    background: #e7e1d7;
+}
+  
