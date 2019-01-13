@@ -118,8 +118,6 @@ img[src*="#thumbnail"] {
 
 <img src="./style-guides.png" alt="style-guides" width="600" height="400" />
 
-Move along.
-
 
 ## Planning and designing a layout
 
@@ -136,6 +134,16 @@ We change the box sizing to border box. Refer : https://www.paulirish.com/2012/b
 
 #### Build the wireframe structures with background colors
 From the wireframe diagram check the color we need and add the color classes. Use them to create the structure in html based on the wireframe divide the html page into sections along with header and footers.
+
+##### 3H Content Strategy 
+3H stand for :
+1. Hub
+2. Hero
+3. Hygeine
+
+Refer : 
+* https://www.quora.com/What-is-hero-content 
+* https://fastweb.media/blog/what-is-hero-content
 
 For example in this case:
 
